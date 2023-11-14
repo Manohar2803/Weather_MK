@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@700&family=Kenia&family=Libre+Baskerville&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+body {
+  background-image: url("https://cdn.backpacker.com/wp-content/uploads/2021/08/cumulonimbus-cloud.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  height: 100vh;
+}
+
+#d1{
+    margin-top:10px;
+    margin-left:15px;
+    display: flex;
+    flex-direction: row;
+}
+
+#pic1{
+    border: none;
+    border-radius: 10px;
+    height:100px;
+    width:125px;
+    padding-top: 0px;
+    background-color: #151515b2;
+}
+#he1{
+    margin-top:10px;
+    margin-left: 15px;
+    font-family: 'Agbalumo';
+    font-size: 45px;
+    color:rgb(255, 255, 255)
+}
+::placeholder {
+    color: #fff;
+  }
+input {
+  background-color: #575757;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 1rem;
+  min-width: 300px;
+  color: #fff;
+  transition: 0.2s;
+}
+
+input#search:hover {
+  background: #65747b;
+}
+
+input:focus {
+  outline: none;
+  align-items: center;
+  margin-bottom: 0;
+  padding-left: 85px;
+}
+
+.weather {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.weather h2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  padding-left: 90px;
+}
+
+.card {
+  background: #000000b2;
+  width: 100%;
+  max-width: 470px;
+  height: 60%;
+  padding: 2.5em;
+  align-items: center;
+  text-align: center;
+  border-radius: 30px;
+  color: white;
+  margin-top:50px;
+  margin-left: 500px;
+}
+
+.more-info p {
+  font-size: 20px;
+}
+.more-info span {
+  font-weight: 600;
+}
+
+
